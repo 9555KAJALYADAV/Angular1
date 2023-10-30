@@ -8,3 +8,5 @@
 /.vs/Angular1/v17/.wsuo
 /.vs/Angular1/v17/workspaceFileList.bin
 *.vs
+/.angular/cache/16.2.8/angular-webpack/eaf274bbb7e9f8a6a09edaf3c3fcacb84ff4fa89
+/.angular/cache/16.2.8/babel-webpack
