@@ -10,3 +10,5 @@
 *.vs
 /.angular/cache/16.2.8/angular-webpack/eaf274bbb7e9f8a6a09edaf3c3fcacb84ff4fa89
 /.angular/cache/16.2.8/babel-webpack
+/.angular/cache/16.2.8/angular-webpack/b7964eec585396cb4a27093f80092cf1a34fb26a
+*/.node_modules
