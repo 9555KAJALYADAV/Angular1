@@ -1,3 +1,5 @@
+import { HttpClient } from '@angular/common/http';
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,10 +9,16 @@ import { Component } from '@angular/core';
 })
 export class RegisterComponent  {
   model:any={};
-  /**
-   *
-   */
-  constructor() {
+
+  constructor(private http:HttpClient) {
+  }
+
+  register(){
+    console.log(this.model);
+    debugger
+    this.http.get('').subscribe((data:any) => {
+    console.log(data);
+  });
   }
   
 }
